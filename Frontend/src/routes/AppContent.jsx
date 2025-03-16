@@ -4,9 +4,8 @@ import MainLayout from '../layout/MainLayout';
 import AuthLayout from '../layout/AuthLayout';
 import { ProtectedRoute, PublicRoute } from './Routes';
 import Loader from '../layout/Loader2';
-// Fix: Corrected case sensitivity in the import path (signup → Signup)
-// or adjust the filename to match exactly what's in your project
-import Signup from '../pages/authentication/Signup';
+
+import Signup from '../pages/authentication/Signup.js';
 
 const Tasks = lazy(() => import('../components/adminPannel/Tasks'));
 const Events = lazy(() => import('../components/adminPannel/Events'));
